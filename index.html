@@ -169,9 +169,33 @@
   footer a { color: #ccc; }
   footer .dis { max-width: 700px; margin: 12px auto 0; color: #8a8a90; font-size: 12px; }
 
-  @media (max-width: 600px) {
-    .hero h1 { font-size: 28px; }
-    .steps { grid-template-columns: 1fr; }
+@media (max-width: 600px) {
+    .wrap { padding: 0 14px; }
+    .hero { padding: 28px 0 24px; }
+    .hero h1 { font-size: 26px; }
+    .hero p { font-size: 15px; }
+    .hero .top { flex-direction: column; align-items: flex-start; gap: 10px; margin-bottom: 20px; }
+    .btn { padding: 16px 20px; font-size: 18px; }
+    .btn-sub { font-size: 13px; }
+    .section { padding: 18px 0; }
+    h2 { font-size: 21px; margin-bottom: 14px; }
+    .sub { margin-bottom: 20px; }
+    .cards { grid-template-columns: 1fr; gap: 10px; }
+    .card { padding: 15px; }
+    .steps { grid-template-columns: 1fr; gap: 12px; margin-bottom: 22px; }
+    .highlight { padding: 18px; }
+    .highlight .n { font-size: 26px; }
+    .cities { padding: 20px 14px; }
+    .cities .chip { padding: 7px 12px; font-size: 13px; }
+    .faq details { padding: 12px 14px; }
+    footer { padding: 20px 0; margin-top: 24px; }
+    footer .dis { font-size: 11px; }
+  }
+
+  @media (max-width: 380px) {
+    .hero h1 { font-size: 23px; }
+    .brand { font-size: 15px; }
+    .badge { font-size: 12px; }
   }
 </style>
 </head>
