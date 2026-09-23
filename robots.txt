@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://dreamtanasov-pixel.github.io/courier/sitemap.xml
+Sitemap: https://rabotakurer.su/sitemap.xml
