@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .frame { fill: none; stroke: #1fa44c; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+      .frame2 { fill: none; stroke: #157c38; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+      .gold { fill: none; stroke: #f0b429; stroke-width: 3; }
+      .hub { fill: #f0b429; }
+      @media (prefers-color-scheme: dark) {
+        .bg { fill: #0e2a1d; }
+        .frame { stroke: #2ecc71; }
+        .frame2 { stroke: #1fa44c; }
+        .hub { fill: #f0b429; }
+      }
+    </style>
+  </defs>
+  <rect class="bg" x="0" y="0" width="64" height="64" rx="14"/>
+  <circle class="gold" cx="18" cy="45" r="12"/>
+  <circle class="gold" cx="46" cy="45" r="12"/>
+  <circle class="hub" cx="18" cy="45" r="2.4"/>
+  <circle class="hub" cx="46" cy="45" r="2.4"/>
+  <polyline class="frame" points="30,45 42,27 45,45"/>
+  <polyline class="frame" points="42,27 22,23 30,45"/>
+  <line class="frame" x1="22" y1="23" x2="18" y2="45"/>
+  <line class="frame2" x1="30" y1="45" x2="22" y2="23"/>
+  <line class="frame2" x1="30" y1="45" x2="42" y2="27"/>
+  <line class="frame" x1="41" y1="16" x2="43" y2="26"/>
+  <line class="frame" x1="24" y1="18" x2="20" y2="24"/>
+  <rect x="20" y="16" width="7" height="3" rx="1.5" fill="#157c38"/>
+  <circle class="hub" cx="30" cy="45" r="3.2"/>
+</svg>
